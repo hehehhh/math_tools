@@ -7,3 +7,17 @@
 </p>
 
 a ros package for B-spline curve and dubins curve
+# Quick Start
+
+1. 创建ros工作空间
+```shell
+mkdir ros_ws/src
+cd ros_ws/src
+git clone https://github.com/hehehhh/dwa_tra-local-planner.git
+cd ..
+catkin_make
+```
+2.引入该头文件
+```cpp
+#include<math_tools/bspine.h>
+#include<math_tools/dubins.h>
